@@ -48,10 +48,9 @@ GROUP BY 1
 ORDER BY 4 DESC
 ;
 
-## Q2. Can you provide a table with the all movie titles and divide them into
-4 levels based on the quartiles (25%, 50%, 75%) of the rental duration for movies
+*/ Q2. levels based on the quartiles (25%, 50%, 75%) of the rental duration for movies
 across all categories? And compare this with the spread of each of the family
-friendly categories.
+friendly categories. */
 
 (SELECT f.title film_title,
         c.name category,
